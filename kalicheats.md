@@ -1,6 +1,7 @@
-Kali Linux Cheat Sheet
----
-Information Gathering
+# Kali Linux Cheat Sheet
+
+## Information Gathering
+
 nmap -sS -A target.com
 
 Stealth scan with OS & service detection
