@@ -33,6 +33,23 @@
 
 * patator ssh_login host=ip user=FILE0 password=FILE1 0=user.txt 1=pass.txt - Brute-force SSH login
 
+## Vulnerability Analysis & Web Exploitation
+* nikto -h http://target.com - Scan for common web vulnerabilities
+
+* wpscan --url http://target.com - WordPress vulnerability scanner
+
+* sqlmap -u "http://target.com/page.php?id=1" --dbs - Detect & exploit SQL injections
+
+* searchsploit apache 2.4 - Search local exploit database
+
+* nuclei -t cves/ -u http://target.com - Scan with CVE templates
+
+* openvas-start - Start OpenVAS vulnerability scanner
+
+* lynis audit system - Perform a full system audit
+
+* gobuster dir -u http://target.com -w wordlist.txt - Fast directory brute-forcing
+
 ## System Access & Reverse Shells
 
 * nc -lvnp 4444 - Start Netcat listener
