@@ -7,4 +7,4 @@ Welcome! This repo contains my personal collection of tools and guides.
 
 ### [Scripts](./scripts.md)
 
-### [Dummy Reports](./reports.md)
+### [SOC Reports](./reports.md)
