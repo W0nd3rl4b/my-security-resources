@@ -1,4 +1,8 @@
 # My Security Knowledge Base
 Welcome! This repo contains my personal collection of tools and guides.
 
-### [Click Here to View All Resources](./resources.md)
+### [View Resources](./resources.md)
+
+### [View Scripts](./scripts.md)
+
+### [View Dummy Reports](./reports.md)
