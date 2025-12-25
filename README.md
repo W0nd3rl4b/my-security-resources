@@ -1,2 +1,4 @@
-# my-security-resources
-Useful list of resources
+# My Security Knowledge Base
+Welcome! This repo contains my personal collection of tools and guides.
+
+### [Click Here to View All Resources](./RESOURCES.md)
