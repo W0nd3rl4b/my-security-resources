@@ -3,7 +3,7 @@ Welcome! This repo contains my personal collection of tools and guides.
 
 ### [Resources](./resources.md)
 
-### [Kali Cheatsheet](./kalicheats.md)
+### [Kali Cheat Sheet](./kalicheats.md)
 
 ### [Scripts](./scripts.md)
 
