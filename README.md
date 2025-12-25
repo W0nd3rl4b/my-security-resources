@@ -1,8 +1,10 @@
 # My Security Knowledge Base
 Welcome! This repo contains my personal collection of tools and guides.
 
-### [View Resources](./resources.md)
+### [Resources](./resources.md)
 
-### [View Scripts](./scripts.md)
+### [Kali Cheatsheet](./kalicheats.md)
 
-### [View Dummy Reports](./reports.md)
+### [Scripts](./scripts.md)
+
+### [Dummy Reports](./reports.md)
