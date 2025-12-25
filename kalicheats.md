@@ -2,34 +2,33 @@
 
 ## Information Gathering
 
-nmap -sS -A target.com
+* nmap -sS -A target.com - Stealth scan with OS & service detection
 
-Stealth scan with OS & service detection
+* whois target.com - Retrieve domain registration info
 
-whois target.com
+* theharvester -d target.com -b all - Gather emails & subdomains from public sources
 
-Retrieve domain registration info
+* dnsenum target.com - Enumerate DNS records & subdomains
 
-theharvester -d target.com -b all
+* dirb http://target.com/ - Brute-force directories
 
-Gather emails & subdomains from public sources
+* nslookup target.com - Resolve domain to IP address
 
-dnsenum target.com
+* whatweb http://target.com - Identify web technologies & server info
 
-Enumerate DNS records & subdomains
+* recon-ng - Modular automated OSINT framework
 
-dirb http://target.com/
+## Password Attacks
+* hydra -l admin -P rockyou.txt target.com http-get - Brute-force HTTP login
 
-Brute-force directories
+* john --wordlist=rockyou.txt hash.txt - Crack password hashes
 
-nslookup target.com
+* hashcat -m 0 hash.txt rockyou.txt - GPU-based password cracking
 
-Resolve domain to IP address
+* cewl http://target.com -w wordlist.txt - Generate wordlist from a website
 
-whatweb http://target.com
+* crunch 6 10 abcdef1234 - Generate custom wordlists
 
-Identify web technologies & server info
+* medusa -h target.com -u admin -P rockyou.txt -M http - Fast parallel brute-forcer
 
-recon-ng
-
-Modular automated OSINT framework
+* patator ssh_login host=ip user=FILE0 password=FILE1 0=user.txt 1=pass.txt - Brute-force SSH login
